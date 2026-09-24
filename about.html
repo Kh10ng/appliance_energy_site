@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Australian Appliance Energy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand" id="brand-logo" role="button" tabindex="0" title="Return to Home">
+        <img src="images/PowerIcon.png" alt="Power Logo" class="power-icon" />
+        <span class="brand-text">EnergyTrack AU</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><button class="nav-btn" data-page="index.html">Home</button></li>
+        <li><button class="nav-btn" data-page="televisions.html">Televisions</button></li>
+        <li><button class="nav-btn active" data-page="about.html">About Us</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content-container">
+    <div class="hero-banner">
+      <span class="tag-badge">ℹ️ COS30045 Data Visualisation</span>
+      <h1>About This Project</h1>
+      <p class="subtitle">A dedicated web platform designed to host data-driven visualisations for Australian appliance energy efficiency.</p>
+    </div>
+
+    <div class="story-stream">
+      <section class="story-block">
+        <div class="story-content">
+          <h2>Project Purpose</h2>
+          <p>
+            This website provides the core architecture for exploring appliance energy metrics. As part of unit COS30045, subsequent tasks will incorporate interactive data visualisations built using D3.js and SVG.
+          </p>
+          <p>
+            The project connects data pre-processing workflows (e.g., KNIME data cleaning) with interactive front-end web presentation.
+          </p>
+        </div>
+        <div class="story-stat-box">
+          <div class="stat-number">T01</div>
+          <div class="stat-label">Task Phase</div>
+          <p class="stat-desc">Sign-off Demonstration 1: Web foundation and GitHub/Vercel deployment.</p>
+        </div>
+      </section>
+
+      <section class="story-block reversed">
+        <div class="story-content">
+          <h2>Data Sources & Standards</h2>
+          <p>
+            All efficiency figures, rating methodologies, and benchmarks align with the Australian Equipment Energy Efficiency (E3) Program and the Greenhouse and Energy Minimum Standards (GEMS) database.
+          </p>
+          <p>
+            Official government reference data is available at <a href="https://www.energyrating.gov.au" target="_blank" rel="noopener" style="color: var(--primary-gold-dark); font-weight: 600;">energyrating.gov.au</a>.
+          </p>
+        </div>
+        <div class="story-stat-box">
+          <div class="stat-number">GEMS</div>
+          <div class="stat-label">National Database</div>
+          <p class="stat-desc">Greenhouse and Energy Minimum Standards regulatory framework.</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p class="copyright">&copy; <span id="current-year"></span> Bryan Liew Yiew Khiong. All rights reserved.</p>
+      <p class="acknowledgement">
+        <strong>GenAI Acknowledgement:</strong> Generative AI (Google Gemini) was used to assist in structuring HTML/CSS layout and generating Australian appliance energy placeholder content.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
